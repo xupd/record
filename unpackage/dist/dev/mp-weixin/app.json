@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/RecordDigital/RecordDigital",
+    "pages/RecordManager/RecordManager",
+    "pages/My/My",
+    "pages/RecordDigital/RecordDigitalItem",
+    "pages/RecordDigital/RecordDigitalSuccess",
+    "pages/Login/Login",
+    "pages/Login/GetPhone"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#a4579d",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/tabbar/home.png",
+        "selectedIconPath": "static/image/tabbar/homes.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/RecordDigital/RecordDigital",
+        "iconPath": "static/image/tabbar/RecordDigital.png",
+        "selectedIconPath": "static/image/tabbar/RecordDigitals.png",
+        "text": "档案数字化"
+      },
+      {
+        "pagePath": "pages/RecordManager/RecordManager",
+        "iconPath": "static/image/tabbar/RecordManager.png",
+        "selectedIconPath": "static/image/tabbar/RecordManagers.png",
+        "text": "档案管理"
+      },
+      {
+        "pagePath": "pages/My/My",
+        "iconPath": "static/image/tabbar/my.png",
+        "selectedIconPath": "static/image/tabbar/mys.png",
+        "text": "会员中心"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

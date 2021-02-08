@@ -1,0 +1,123 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+    "tui-(.*)": "thorui-uni/lib/thorui/tui-$1/tui-$1.vue"
+  },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页",
+        "h5": {
+          "titleNView": false
+        }
+			}
+		},
+    {
+      "path" : "pages/RecordDigital/RecordDigital",
+      "style": {
+        "navigationBarTitleText": "档案数字化",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path" : "pages/RecordManager/RecordManager",
+      "style": {
+        "navigationBarTitleText": "档案管理",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path" : "pages/My/My",
+      "style": {
+        "navigationBarTitleText": "会员中心",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path" : "pages/RecordDigital/RecordDigitalItem",
+      "style": {
+        "navigationBarTitleText": "新增档案",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path" : "pages/RecordDigital/RecordDigitalSuccess",
+      "style": {
+        "navigationBarTitleText": "新增档案成功",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path" : "pages/Login/Login",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path" : "pages/Login/GetPhone",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "h5": {
+          "titleNView": false
+        }
+      }
+    }
+  ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#a4579d",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "static/image/tabbar/home.png",
+      "selectedIconPath": "static/image/tabbar/homes.png",
+      "text": "主页"
+    },
+    {
+      "pagePath": "pages/RecordDigital/RecordDigital",
+      "iconPath": "static/image/tabbar/RecordDigital.png",
+      "selectedIconPath": "static/image/tabbar/RecordDigitals.png",
+      "text": "档案数字化"
+    },
+    {
+      "pagePath": "pages/RecordManager/RecordManager",
+      "iconPath": "static/image/tabbar/RecordManager.png",
+      "selectedIconPath": "static/image/tabbar/RecordManagers.png",
+      "text": "档案管理"
+    },
+    {
+      "pagePath": "pages/My/My",
+      "iconPath": "static/image/tabbar/my.png",
+      "selectedIconPath": "static/image/tabbar/mys.png",
+      "text": "会员中心"
+    }]
+  }
+}
